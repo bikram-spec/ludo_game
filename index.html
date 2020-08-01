@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ludo game</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body class="main">
+	<div id="dice" class="dice">
+		<div id="n6" class="n6">
+			<div class="dot1" id="dot1"></div>
+			<div class="dot2" id="dot2"></div>
+			<div class="dot3" id="dot3"></div>
+			<div class="dot4" id="dot4"></div>
+			<div class="dot5" id="dot5"></div>
+			<div class="dot6" id="dot6"></div>
+		</div>
+	</div>
+	<div class="main-layout">
+		<div class="hara-goti" id="hara-goti">
+			<div class="hara-1" id="hara-1"></div>
+			<div class="hara-2" id="hara-2"></div>
+			<div class="hara-3" id="hara-3"></div>
+			<div class="hara-4" id="hara-4"></div>
+	</div>
+		<div class="red-layout">
+			<div class="red-aligenment">
+				<div class="r1"></div>
+				<div class="r2"></div>
+				<div class="r3"></div>
+				<div class="r4"></div>
+			</div>
+		</div>
+		<div class="green-layout">
+			<div class="red-aligenment">
+				<div class="g1"></div>
+				<div class="g2"></div>
+				<div class="g3"></div>
+				<div class="g4"></div>
+			</div>
+		</div>
+		<div class="center-layout">
+			<canvas id="l1" class="l1"></canvas>
+			<canvas id="l2" class="l2"></canvas>
+		</div>
+		<div class="blue-layout">
+			<div class="red-aligenment">
+				<div class="b1"></div>
+				<div class="b2"></div>
+				<div class="b3"></div>
+				<div class="b4"></div>
+			</div>
+		</div>
+		<div class="yellow-layout">
+			<div class="red-aligenment">
+				<div class="y1"></div>
+				<div class="y2"></div>
+				<div class="y3"></div>
+				<div class="y4"></div>
+			</div>
+		</div>
+		<div class="top-layout">
+			<table class="top-green">
+				<tr class="top-1">
+					<td class="top1-left"></td>
+					<td class="top1-middle"></td>
+					<td class="top1-right"></td>
+				</tr>
+				<tr class="top-2">
+					<td class="top2-left"></td>
+					<td class="top2-middle"> </td>
+					<td class="top2-right">*</td>
+				</tr>
+				<tr class="top-3">
+					<td class="top3-left">*</td>
+					<td class="top3-middle"> </td>
+					<td class="top3-right"> </td>
+				</tr>
+				<tr class="top-4">
+					<td class="top4-left"></td>
+					<td class="top4-middle"> </td>
+					<td class="top4-right"> </td>
+				</tr>
+				<tr class="top-5">
+					<td class="top5-left"></td>
+					<td class="top5-middle"> </td>
+					<td class="top5-right"> </td>
+				</tr>
+				<tr class="top-6">
+					<td class="top6-left"></td>
+					<td class="top6-middle"> </td>
+					<td class="top6-right"> </td>
+				</tr>
+			</table>
+		</div>
+		<div class="middle-left">
+			<table class="middle-red">
+				<tr class="middle-1">
+					<td class="md1-first"></td>
+					<td class="md1-second">*</td>
+					<td class="md1-third"> </td>
+					<td class="md1-four"> </td>
+					<td class="md1-five"> </td>
+					<td class="md1-six"> </td>
+				</tr>
+				<tr class="middle-2">
+					<td class="md2-first"></td>
+					<td class="md2-second"></td>
+					<td class="md2-third"></td>
+					<td class="md2-four"></td>
+					<td class="md2-five"></td>
+					<td class="md2-six"></td>
+				</tr>
+				<tr class="middle-3">
+					<td class="md3-first"></td>
+					<td class="md3-second"> </td>
+					<td class="md3-third">*</td>
+					<td class="md3-four"></td>
+					<td class="md3-five"></td>
+					<td class="md3-six"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="middle-right">
+			<table class="middle-yellow">
+				<tr class="middley-1">
+					<td class="mdy1-first"></td>
+					<td class="mdy1-second"> </td>
+					<td class="mdy1-third"> </td>
+					<td class="mdy1-four">*</td>
+					<td class="mdy1-five"> </td>
+					<td class="mdy1-six"> </td>
+				</tr>
+				<tr class="middley-2">
+					<td class="mdy2-first"></td>
+					<td class="mdy2-second"></td>
+					<td class="mdy2-third"></td>
+					<td class="mdy2-four"></td>
+					<td class="mdy2-five"></td>
+					<td class="mdy2-six"></td>
+				</tr>
+				<tr class="middley-3">
+					<td class="mdy3-first"></td>
+					<td class="mdy3-second"> </td>
+					<td class="mdy3-third"> </td>
+					<td class="mdy3-four"></td>
+					<td class="mdy3-five">*</td>
+					<td class="mdy3-six"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="bottom-layout">
+			<table class="bottom-blue">
+				<tr class="bottom-1">
+					<td class="bottom1-left"></td>
+					<td class="bottom1-middle"></td>
+					<td class="bottom1-right"></td>
+				</tr>
+				<tr class="bottom-2">
+					<td class="bottom2-left"></td>
+					<td class="bottom2-middle"> </td>
+					<td class="bottom2-right"></td>
+				</tr>
+				<tr class="bottom-3">
+					<td class="bottom3-left"></td>
+					<td class="bottom3-middle"> </td>
+					<td class="bottom3-right"> </td>
+				</tr>
+				<tr class="bottom-4">
+					<td class="bottom4-left"></td>
+					<td class="bottom4-middle"> </td>
+					<td class="bottom4-right">*</td>
+				</tr>
+				<tr class="bottom-5">
+					<td class="bottom5-left">*</td>
+					<td class="bottom5-middle"> </td>
+					<td class="bottom5-right"> </td>
+				</tr>
+				<tr class="bottom-6">
+					<td class="bottom6-left"></td>
+					<td class="bottom6-middle"> </td>
+					<td class="bottom6-right"> </td>
+				</tr>
+			</table>
+		</div>				
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

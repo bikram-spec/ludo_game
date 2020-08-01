@@ -1,0 +1,11 @@
+{
+  "name": "ludo",
+  "version": "1.0.0",
+  "description": "ludo game",
+  "main": "index.js",
+  "scripts": {
+    "test": "ludo test"
+  },
+  "author": "vikram gauda",
+  "license": "ISC"
+}

@@ -1,0 +1,164 @@
+var ctx=l1.getContext('2d');
+ctx.beginPath();
+ctx.moveTo(0,0);
+ctx.lineTo(120,120);
+ctx.stroke();
+var ctx2=l2.getContext('2d');
+ctx2.beginPath();
+ctx2.moveTo(120,0);
+ctx2.lineTo(0,120);
+ctx2.stroke();
+document.getElementById('dice').addEventListener('click',function(){
+var val=Math.floor(Math.random()*6+1)
+document.getElementById('hara-1').addEventListener('click',function(){
+	console.log("value onn dice is"+val);
+})
+if(val==1)
+{
+						document.getElementById('dice');
+						document.getElementById('dot1').style.marginLeft="20px";
+						document.getElementById('dot1').style.marginTop="20px";
+						document.getElementById('dot1').style.backgroundColor="black";
+						document.getElementById('dot2').style.marginLeft="50px";
+						document.getElementById('dot2').style.marginTop="50px";
+						document.getElementById('dot2').style.backgroundColor="black";
+						document.getElementById('dot3').style.marginLeft="50px";
+						document.getElementById('dot3').style.marginTop="50px";
+						document.getElementById('dot3').style.backgroundColor="black";
+						document.getElementById('dot4').style.marginLeft="50px";
+						document.getElementById('dot4').style.marginTop="50px";
+						document.getElementById('dot4').style.backgroundColor="black";
+						document.getElementById('dot5').style.marginLeft="50px";
+						document.getElementById('dot5').style.marginTop="50px";
+						document.getElementById('dot5').style.backgroundColor="black";
+						document.getElementById('dot6').style.marginLeft="50px";
+						document.getElementById('dot6').style.marginTop="50px";
+						document.getElementById('dot6').style.backgroundColor="black";
+}
+else {
+	if(val==2){
+		document.getElementById('dice');
+		document.getElementById('dot1').style.marginLeft="5px";
+		document.getElementById('dot1').style.marginTop="20px";
+		document.getElementById('dot1').style.backgroundColor="black";
+		document.getElementById('dot2').style.marginLeft="35px";
+		document.getElementById('dot2').style.marginTop="20px";
+		document.getElementById('dot2').style.backgroundColor="black";
+		document.getElementById('dot3').style.marginLeft="50px";
+						document.getElementById('dot3').style.marginTop="50px";
+						document.getElementById('dot3').style.backgroundColor="black";
+						document.getElementById('dot4').style.marginLeft="50px";
+						document.getElementById('dot4').style.marginTop="50px";
+						document.getElementById('dot4').style.backgroundColor="black";
+						document.getElementById('dot5').style.marginLeft="50px";
+						document.getElementById('dot5').style.marginTop="50px";
+						document.getElementById('dot5').style.backgroundColor="black";
+						document.getElementById('dot6').style.marginLeft="50px";
+						document.getElementById('dot6').style.marginTop="50px";
+						document.getElementById('dot6').style.backgroundColor="black";
+	}
+	else
+	{
+		if(val==3)
+		{
+			document.getElementById('dice');
+			document.getElementById('dot1').style.marginLeft="5px";
+			document.getElementById('dot1').style.marginTop="5px";
+			document.getElementById('dot1').style.backgroundColor="black";
+			document.getElementById('dot2').style.marginLeft="20px";
+			document.getElementById('dot2').style.marginTop="20px";
+			document.getElementById('dot2').style.backgroundColor="black";
+			document.getElementById('dot3').style.marginLeft="35px";
+			document.getElementById('dot3').style.marginTop="35px";
+			document.getElementById('dot3').style.backgroundColor="black";
+			document.getElementById('dot4').style.marginTop="50px";
+						document.getElementById('dot4').style.backgroundColor="black";
+						document.getElementById('dot5').style.marginLeft="50px";
+						document.getElementById('dot5').style.marginTop="50px";
+						document.getElementById('dot5').style.backgroundColor="black";
+						document.getElementById('dot6').style.marginLeft="50px";
+						document.getElementById('dot6').style.marginTop="50px";
+						document.getElementById('dot6').style.backgroundColor="black";
+
+		}
+		else
+		{
+			if(val==4)
+			{
+				document.getElementById('dice');
+				document.getElementById('dot1').style.marginLeft="5px";
+				document.getElementById('dot1').style.marginTop="5px";
+				document.getElementById('dot1').style.backgroundColor="black";
+				document.getElementById('dot2').style.marginLeft="35px";
+				document.getElementById('dot2').style.marginTop="5px";
+				document.getElementById('dot2').style.backgroundColor="black";
+				document.getElementById('dot3').style.marginLeft="5px";
+				document.getElementById('dot3').style.marginTop="35px";
+				document.getElementById('dot3').style.backgroundColor="black";
+				document.getElementById('dot4').style.marginLeft="35px";
+				document.getElementById('dot4').style.marginTop="35px";
+				document.getElementById('dot4').style.backgroundColor="black";
+				document.getElementById('dot5').style.marginTop="50px";
+						document.getElementById('dot5').style.backgroundColor="black";
+						document.getElementById('dot6').style.marginLeft="50px";
+						document.getElementById('dot6').style.marginTop="50px";
+						document.getElementById('dot6').style.backgroundColor="black";
+			}
+			else
+			{
+				if(val==5)
+				{
+					document.getElementById('dice');
+					document.getElementById('dot1').style.marginLeft="5px";
+					document.getElementById('dot1').style.marginTop="5px";
+					document.getElementById('dot1').style.backgroundColor="black";
+					document.getElementById('dot2').style.marginLeft="35px";
+					document.getElementById('dot2').style.marginTop="5px";
+					document.getElementById('dot2').style.backgroundColor="black";
+					document.getElementById('dot3').style.marginLeft="5px";
+					document.getElementById('dot3').style.marginTop="35px";
+					document.getElementById('dot3').style.backgroundColor="black";
+					document.getElementById('dot4').style.marginLeft="35px";
+					document.getElementById('dot4').style.marginTop="35px";
+					document.getElementById('dot4').style.backgroundColor="black";
+					document.getElementById('dot5').style.marginLeft="20px";
+					document.getElementById('dot5').style.marginTop="20px";
+					document.getElementById('dot5').style.backgroundColor="black";
+					document.getElementById('dot6').style.marginLeft="50px";
+						document.getElementById('dot6').style.marginTop="50px";
+						document.getElementById('dot6').style.backgroundColor="black";
+				}
+				else
+				{
+					if(val==6)
+					{
+						document.getElementById('dice');
+						document.getElementById('dot1').style.marginLeft="5px";
+						document.getElementById('dot1').style.marginTop="10px";
+						document.getElementById('dot1').style.backgroundColor="black";
+						document.getElementById('dot2').style.marginLeft="20px";
+						document.getElementById('dot2').style.marginTop="10px";
+						document.getElementById('dot2').style.backgroundColor="black";
+						document.getElementById('dot3').style.marginLeft="35px";
+						document.getElementById('dot3').style.marginTop="10px";
+						document.getElementById('dot3').style.backgroundColor="black";
+						document.getElementById('dot4').style.marginLeft="5px";
+						document.getElementById('dot4').style.marginTop="30px";
+						document.getElementById('dot4').style.backgroundColor="black";
+						document.getElementById('dot5').style.marginLeft="20px";
+						document.getElementById('dot5').style.marginTop="30px";
+						document.getElementById('dot5').style.backgroundColor="black";
+						document.getElementById('dot6').style.marginLeft="35px";
+						document.getElementById('dot6').style.marginTop="30px";
+						document.getElementById('dot6').style.backgroundColor="black";
+					}
+					else
+					{
+						console.log("longer value than six not allwed");
+					}
+				}
+			}
+		}
+	}
+}
+})
